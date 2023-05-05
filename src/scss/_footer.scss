@@ -1,0 +1,30 @@
+.frncs{
+    color: aquamarine;
+}
+.containerBot{
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 $containerSidePadding + px;
+    box-shadow: 0px 5px 30px #391717a0;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    padding: 0px 100px;
+}
+.bot{
+    display: flex;
+
+    &__item{
+        margin-left: 25px;
+
+        &-link{
+            color: bisque;
+
+            &:hover{
+                color: rgb(204, 162, 111);
+            }
+        }
+    }
+
+}
